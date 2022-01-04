@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;   
+}
+h1{
+    font-size: 50px;
+}
+
+.small_content_red_color_span{
+    color: rgb(207, 2, 36);
+}
+.flexible_two_row_section{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.half_width_div{
+    width: 50%;
+}
+.half_width_paragraph_div{
+   margin-top: 5%; 
+}    
+
+
+.half_width_div p{
+    margin-bottom: 25px;
+}
+.link_btn{
+    margin-top: 100px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(207, 2, 36), #b1355e);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.half_width_div img{
+    width: 100%;
+}
