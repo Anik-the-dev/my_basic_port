@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Readex Pro', sans-serif;   
+    font-family: 'Readex Pro', sans-serif;  
+    margin: 0; 
+
 }
 h1{
     font-size: 50px;
@@ -11,23 +13,40 @@ h1{
 }
 .flexible_two_row_section{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+.first_section_bg{
+    background-repeat: no-repeat;
+    background-image: url(images/top-banner.png);
+    
+    
 
 }
 .half_width_div{
     width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+   
 }
 .half_width_paragraph_div{
    margin-top: 5%; 
 }    
 
+.section_top_margin{
+    margin-top: 70px;
+}
 
-.half_width_div p{
-    margin-bottom: 25px;
+
+
+.second_section_bg{
+  background-repeat: no-repeat;
+  background-image: url(images/dream-bg.png);
+  background-position: right;
+  
 }
 .link_btn{
-    margin-top: 100px;
+    display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(rgb(207, 2, 36), #b1355e);
     color: rgb(255, 255, 255);
@@ -38,5 +57,47 @@ h1{
 }
 
 .half_width_div img{
-    width: 100%;
+    width: 80%;
+}
+
+.experience_row1{
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px #504d4df5;
+    border-left: 7px solid #534e4ef5;
+    padding: 75px;
+}
+
+.experience_row1 h2{
+    font-size: 35px;
+}
+
+
+
+.sec4bg{
+    background-repeat: no-repeat;
+    background-image: url(images/exp-bg.png);
+}
+
+#edu1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#e93b3bf5,#a704e7f5) ;
+    border-image-slice: 1;
+    padding: 75px;
+    box-shadow: 10px 10px 40px #575252f5;
+    
+}
+
+#edu2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#1227e2f5,#5bd1f5) ;
+    border-image-slice: 1;
+    padding: 75px;
+    box-shadow: 10px 10px 40px  #575252f5;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
